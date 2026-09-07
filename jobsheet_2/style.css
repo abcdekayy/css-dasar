@@ -1,0 +1,36 @@
+body {
+    background-color: #2b80ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+#nama {
+  color: #01010a;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #333333;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+    color: #292424;
+    background-color:  #e8f4fd;
+    padding: 16px;
+}
+
+.bio {
+    background-color: #e8f4fd;
+    padding: 16px;
+    border-radius: 6px;
+    border-left: 4px solid #1877f2;
+}
