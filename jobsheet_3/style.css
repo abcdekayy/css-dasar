@@ -1,0 +1,60 @@
+
+.navbar  {
+    display: flex;
+    border: 5px solid teal;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    border-radius: 6px;
+}
+.logo {
+    border: 20px;
+    padding: 16px;
+    background: white;
+    font-weight: bold;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+.menu li a {
+    display: flex;
+    padding: 3px 10px;
+    color: black;
+    border: 1px solid #333;
+    background: white;
+}
+.hero {
+    padding: auto;
+    border: 17px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid white;
+}
+.hero-text {
+    flex: 1px;
+    min-width: 200px;
+}
+.hero-text h1 {
+
+}
+button {
+    background-color: aqua;
+    text-align: center;
+}
+.galeri {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+    border: 6px solid rgb(0, 102, 255);
+    padding: 17px;
+}
+.galeri div{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 147, 245);
+
+}
